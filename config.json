@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "book-explorer-frontend",
+      "title": "Book Explorer Frontend",
+      "description": "Build a frontend that consumes FastAPI book endpoints using Fetch API.",
+      "path": "assignments/book-explorer-frontend",
+      "dueDate": "2026-07-22",
+      "attachments": [
+        {
+          "name": "Starter HTML",
+          "file": "starter-index.html",
+          "type": "html"
+        },
+        {
+          "name": "Starter JavaScript",
+          "file": "starter-app.js",
+          "type": "javascript"
+        },
+        {
+          "name": "Starter CSS",
+          "file": "starter-styles.css",
+          "type": "css"
+        }
+      ]
     }
   ]
 }

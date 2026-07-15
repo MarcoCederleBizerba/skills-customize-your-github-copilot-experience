@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Explorer Frontend</title>
+    <link rel="stylesheet" href="starter-styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Book Explorer</h1>
+      <p class="hint">Connect this page to your FastAPI Books API.</p>
+
+      <section class="panel">
+        <h2>Add Book</h2>
+        <form id="book-form">
+          <input id="title" name="title" type="text" placeholder="Book title" required />
+          <input id="author" name="author" type="text" placeholder="Author" required />
+          <button type="submit">Add</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2>Books</h2>
+        <p id="status">Ready</p>
+        <ul id="book-list"></ul>
+      </section>
+    </main>
+
+    <script src="starter-app.js"></script>
+  </body>
+</html>
